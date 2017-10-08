@@ -1,0 +1,119 @@
+.header1 {
+  width: 100%;
+  height: 45px;
+  background: #31c27c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2em; }
+  .header1 .back {
+    margin-left: 2%; }
+  .header1 .more {
+    margin-right: 2%; }
+  .header1 img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer; }
+
+.swiper-wrapper {
+  margin-top: 45px; }
+
+.swiper-pagination {
+  position: absolute;
+  height: 45px;
+  left: 0;
+  top: 0; }
+
+.swiper-pagination-bullet {
+  width: 20%;
+  height: 45px;
+  background: white;
+  opacity: 1;
+  text-align: center;
+  line-height: 45px;
+  color: #333333;
+  font-size: 1em;
+  border-bottom: 2px solid #cccccc;
+  border-radius: 0; }
+
+.swiper-pagination-bullet-active {
+  border-bottom: 3px solid #31c27c; }
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 0; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  background-color: #f6f6f6;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.footer .pic img {
+  width: 50px;
+  height: 50px;
+  margin-left: 8px;
+  border-radius: 25px;
+  float: left; }
+
+.footer .songinf {
+  margin-left: 1em;
+  margin-top: .5em;
+  float: left; }
+
+.footer .songinf .songname {
+  font-size: 1em; }
+
+.footer .songinf .singername {
+  font-size: .8em;
+  color: #666; }
+
+.footer .pause span {
+  font-family: 'iconfont';
+  font-size: 2.2em;
+  color: #62bf82;
+  cursor: pointer;
+  margin-right: 1em; }
+
+.footer .pause img {
+  margin-right: 1em;
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
+  cursor: pointer; }
+
+ul {
+  margin-top: 9px;
+  margin-left: 15px;
+  margin-bottom: 4em; }
+  ul li {
+    width: 100%;
+    height: 55px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    ul li a {
+      color: black; }
+      ul li a h3 {
+        margin-top: 8px; }
+    ul li .details {
+      font-family: 'iconfont';
+      color: #666;
+      margin-right: 20px; }
+
+@media screen and (min-width: 768px) {
+  body, .footer {
+    width: 768px;
+    margin: 0 auto; } }
+@media screen and (max-width: 320px) {
+  body, .footer {
+    width: 320px;
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=like.css.map */
